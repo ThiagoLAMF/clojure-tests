@@ -1,0 +1,1122 @@
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.544 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: file:/home/hms/Desktop/web_app/src/web_app/componets.cljs does not provide a namespace
+(first provides)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: file:/home/hms/Desktop/web_app/src/web_app/componets.cljs does not provide a namespace
+(first provides)
+ at cljs.closure$javascript_file.invokeStatic (closure.clj:503)
+    cljs.closure$javascript_file.invoke (closure.clj:499)
+    cljs.closure$map__GT_javascript_file.invokeStatic (closure.clj:508)
+    cljs.closure$map__GT_javascript_file.invoke (closure.clj:506)
+    cljs.closure$compiled_file.invokeStatic (closure.clj:591)
+    cljs.closure$compiled_file.invoke (closure.clj:583)
+    cljs.closure$compile_file.invokeStatic (closure.clj:653)
+    cljs.closure$compile_file.invoke (closure.clj:631)
+    cljs.closure$fn__5388.invokeStatic (closure.clj:727)
+    cljs.closure/fn (closure.clj:721)
+    cljs.closure$fn__5301$G__5294__5308.invoke (closure.clj:549)
+    cljs.closure$compile_sources$iter__5514__5518$fn__5519.invoke (closure.clj:1088)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$dorun.invokeStatic (core.clj:3033)
+    clojure.core$doall.invokeStatic (core.clj:3039)
+    clojure.core$doall.invoke (core.clj:3039)
+    cljs.closure$compile_sources.invokeStatic (closure.clj:1084)
+    cljs.closure$compile_sources.invoke (closure.clj:1073)
+    cljs.closure$build.invokeStatic (closure.clj:3011)
+    cljs.closure$build.invoke (closure.clj:2919)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__18364.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__18676.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__18666.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__18535.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__18592.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__18625.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__18680.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__18722.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__221$fn__222.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__221.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1128)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:628)
+    java.lang.Thread.run (Thread.java:834)
+
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.498 seconds.[0m
+[36m----  Could not Analyze  src/web_app/core.cljs  ----[0m
+
+  [1mNo such namespace: web-app.components, could not locate web_app/components.cljs, web_app/components.cljc, or JavaScript source providing "web-app.components" (Please check that namespaces with dashes use underscores in the ClojureScript file name) [0m
+
+[36m----  Analysis Error : Please see src/web_app/core.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.743 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/web_app/components.js
+Notifying browser that CSS file changed: css/style.css
+Notifying browser that CSS file changed: css/style.css
+Notifying browser that CSS file changed: css/style.css
+Notifying browser that CSS file changed: css/style.css
+Notifying browser that CSS file changed: css/style.css
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.672 seconds.[0m
+[36m----  Could not Analyze  src/web_app/componets.cljs   line:8  column:3  ----[0m
+
+  [1mWrong number of args (2) passed to: core/html[0m
+
+  [36m 7[0m  [36m(defn like-seymore [data][0m
+  [33m 8[0m  [1m  (sab/html [:div[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (2) passed to: core/html[0m
+  [36m 9[0m  [36m             [:h1 "Seymore's quantified popularity: " (:likes @data)][0m
+  [36m10[0m  [36m             [:div [:a {:href "#"[0m
+  [36m11[0m  [36m                        :onClick #(swap! data update-in [:likes] inc)}[0m
+
+[36m----  Analysis Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.557 seconds.[0m
+[36m----  Could not Read  src/web_app/componets.cljs   line:14 ----[0m
+
+  [1m/home/hms/Desktop/web_app/src/web_app/componets.cljs [line 14, col 29] Unmatched delimiter ).[0m
+
+  [36m12[0m  [36m       "Thumbs up"]][0m
+  [36m13[0m  [36m[:div[0m
+  [33m14[0m  [1m [:h1 "API:"]]))[0m
+  [0m  [0m  [33m /home/hms/Desktop/web_app/src/web_app/componets.cljs [line 14, col 29] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.965 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.695 seconds.[0m
+[36m----  Could not Analyze  src/web_app/componets.cljs  ----[0m
+
+  [1mNo such namespace: cljs-http.client, could not locate cljs_http/client.cljs, cljs_http/client.cljc, or JavaScript source providing "cljs-http.client" (Please check that namespaces with dashes use underscores in the ClojureScript file name) [0m
+
+[36m----  Analysis Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.673 seconds.[0m
+[36m----  Could not Compile  src/web_app/componets.cljs  ----[0m
+
+  [1mfailed compiling file:src/web_app/componets.cljs[0m
+
+[36m----  Compiler Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[36m----  Compiler Warning on   src/web_app/componets.cljs   line:11  column:4  ----[0m
+
+  [1mUse of undeclared Var web-app.components/get-data[0m
+
+  [36m10[0m  [36m(defn like-seymore [data][0m
+  [33m11[0m  [1m		(get-data)[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var web-app.components/get-data[0m
+  [36m12[0m  [36m  (sab/html [:div[0m
+  [36m13[0m  [36m             [:h1 "Seymore's quantified popularity: " (:likes @data)][0m
+  [36m14[0m  [36m             [:div [:a {:href "#"[0m
+  [36m15[0m  [36m                        :onClick #(swap! data update-in [:likes] inc)}[0m
+  [36m16[0m  [36m                    "Thumbs up"]][0m
+
+[36m----  Compiler Warning : Please see src/web_app/componets.cljs  ----[0m
+[31mFailed to compile build :dev from ["src"] in 0.642 seconds.[0m
+[36m----  Could not Compile  src/web_app/componets.cljs  ----[0m
+
+  [1mfailed compiling file:src/web_app/componets.cljs[0m
+
+[36m----  Compiler Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.59 seconds.[0m
+[36m----  Could not Compile  src/web_app/componets.cljs  ----[0m
+
+  [1mfailed compiling file:src/web_app/componets.cljs[0m
+
+[36m----  Compiler Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.656 seconds.[0m
+[36m----  Could not Compile  src/web_app/componets.cljs  ----[0m
+
+  [1mfailed compiling file:src/web_app/componets.cljs[0m
+
+[36m----  Compiler Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.633 seconds.[0m
+[36m----  Could not Compile  src/web_app/componets.cljs  ----[0m
+
+  [1mfailed compiling file:src/web_app/componets.cljs[0m
+
+[36m----  Compiler Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 1.009 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.608 seconds.[0m
+[36m----  Could not Compile  src/web_app/componets.cljs  ----[0m
+
+  [1mfailed compiling file:src/web_app/componets.cljs[0m
+
+[36m----  Compiler Error : Please see src/web_app/componets.cljs  ----[0m
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 1.578 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.886 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.995 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.942 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.855 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.864 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.975 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.851 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.984 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.8 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 1.609 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "main.js" in 0.898 seconds.[0m
+notifying browser that file changed:  out/web_app/components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.16 seconds.
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.76 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.669 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.64 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.613 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.7 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.647 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.433 seconds.
+----  Could not Read  src/web_app/componets.cljs   line:39 ----
+
+  D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 39, col 1] Unexpected EOF while reading item 3 of list, starting at line 9 and column 2.
+
+----  Reader Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.602 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.402 seconds.
+----  Could not Read  src/web_app/componets.cljs   line:39 ----
+
+  D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 39, col 1] Unexpected EOF while reading item 5 of list, starting at line 8 and column 1.
+
+----  Reader Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.421 seconds.
+----  Could not Compile  src/web_app/componets.cljs  ----
+
+  failed compiling file:src\web_app\componets.cljs
+
+----  Compiler Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.362 seconds.
+----  Could not Compile  src/web_app/componets.cljs  ----
+
+  failed compiling file:src\web_app\componets.cljs
+
+----  Compiler Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.615 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.607 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.63 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.575 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.425 seconds.
+----  Could not Analyze  src/web_app/componets.cljs  ----
+
+  No such namespace: clojure.data.json, could not locate clojure/data/json.cljs, clojure/data/json.cljc, or JavaScript source providing "clojure.data.json" 
+
+----  Analysis Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.436 seconds.
+----  Could not Analyze  src/web_app/componets.cljs  ----
+
+  No such namespace: clojure.data.json, could not locate clojure/data/json.cljs, clojure/data/json.cljc, or JavaScript source providing "clojure.data.json" 
+
+----  Analysis Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.485 seconds.
+----  Could not Analyze  src/web_app/componets.cljs  ----
+
+  No such namespace: clojure.data.json, could not locate clojure/data/json.cljs, clojure/data/json.cljc, or JavaScript source providing "clojure.data.json" 
+
+----  Analysis Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.653 seconds.
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.806 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.678 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.638 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.444 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.69 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.632 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.78 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.645 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.607 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.645 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.626 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.572 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.674 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.589 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.574 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.604 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.554 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.574 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.558 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.572 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.568 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.611 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.57 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.588 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.602 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.54 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.545 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.527 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.544 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.57 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.558 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.596 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.54 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.576 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.588 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.553 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.526 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.492 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.529 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.575 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.521 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.547 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.512 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.557 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.531 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:21  column:13  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  17        ;;(doseq [item (:body response)] (prn (:login item)))
+  18       	;;(doseq [item (:body response)] ([:tr [:td (:login item)] [:td (:login item)]]) )
+  19        )))
+  20  
+  21  (prn (str (@table-state)))
+                  ^--- Use of undeclared Var web-app.components/table-state
+  22  (doseq [item (:val @table-state)] (prn (:login item)))
+  23  
+  24  (defn like-seymore [data]
+  25  		(.log js/console "Hey Seymore! wts goin' on?")
+  26   ;;(doseq [item (:body get-data)] (prn (:login item)))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:22  column:21  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  18       	;;(doseq [item (:body response)] ([:tr [:td (:login item)] [:td (:login item)]]) )
+  19        )))
+  20  
+  21  (prn (str (@table-state)))
+  22  (doseq [item (:val @table-state)] (prn (:login item)))
+                          ^--- Use of undeclared Var web-app.components/table-state
+  23  
+  24  (defn like-seymore [data]
+  25  		(.log js/console "Hey Seymore! wts goin' on?")
+  26   ;;(doseq [item (:body get-data)] (prn (:login item)))
+  27    (sab/html [:div
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:22  column:21  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  18       	;;(doseq [item (:body response)] ([:tr [:td (:login item)] [:td (:login item)]]) )
+  19        )))
+  20  
+  21  (prn (str (@table-state)))
+  22  (doseq [item (:val @table-state)] (prn (:login item)))
+                          ^--- Use of undeclared Var web-app.components/table-state
+  23  
+  24  (defn like-seymore [data]
+  25  		(.log js/console "Hey Seymore! wts goin' on?")
+  26   ;;(doseq [item (:body get-data)] (prn (:login item)))
+  27    (sab/html [:div
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:35  column:34  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  31         "Thumbs up"]]
+  32  [:div
+  33   [:h1 "API:"]
+  34   [:h1 "22:"]
+  35   [:h1 (str (:login @table-state))]
+                          ^--- Use of undeclared Var web-app.components/table-state
+  36   [:table {:id "tabelaTeste"}
+  37    [:tbody
+  38      [:tr 
+  39      	 [:td "asdsdadasdadsasdasdsadasd"]
+  40      	 [:td "coluna2"]]
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.723 seconds.
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.536 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.526 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.55 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.51 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.631 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.541 seconds.
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.35 seconds.
+----  Could not Read  src/web_app/componets.cljs   line:41 ----
+
+  D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 41, col 37] Unmatched delimiter ].
+
+  39                   [:tr 
+  40                   	 [:td "coluna1"]
+  41                   	 [:td "coluna2"]]]]]
+                       D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 41, col 37] Unmatched delimiter ].
+  42  
+  43                   ]))
+
+----  Reader Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.54 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.53 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.538 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.507 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.484 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.518 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.513 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.586 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.516 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.538 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.531 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.534 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.582 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.495 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.513 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.49 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.535 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.503 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.513 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.516 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.516 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.598 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.557 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.52 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.472 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.624 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.497 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.541 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.47 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.527 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.536 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.531 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.496 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:46  column:50  ----
+
+  Use of undeclared Var web-app.components/render!
+
+  42                   ]]]
+  43  
+  44                   ]))
+  45  
+  46  (add-watch table-state :on-change (fn [_ _ _ _] (render!)))
+                                                       ^--- Use of undeclared Var web-app.components/render!
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.636 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:17  column:15  ----
+
+  Use of undeclared Var web-app.components/teste-state
+
+  13  (go (let [response (<! (http/get "https://api.github.com/users"
+  14                                  {:with-credentials? false
+  15                                   :query-params {"since" 135}}))
+  16       body (:body response)]
+  17       (reset! teste-state "1")
+                   ^--- Use of undeclared Var web-app.components/teste-state
+  18       (prn "oi")
+  19       (reset! table-state body);; reset!
+  20       ;;(doseq [item (:body response)] (prn (:login item)))
+  21      	;;(doseq [item (:body response)] ([:tr [:td (:login item)] [:td (:login item)]]) )
+  22       )))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:36  column:26  ----
+
+  Use of undeclared Var web-app.components/teste-state
+
+  32             :onClick #(swap! data update-in [:likes] inc)}
+  33         "Thumbs up"]]
+  34  [:div
+  35   [:h1 "API:"]
+  36   [:h1 (str @teste-state)]
+                  ^--- Use of undeclared Var web-app.components/teste-state
+  37   [:table {:id "tabelaTeste"}
+  38    [:tbody
+  39    		(for [item @table-state] (vector :tr (vector :td (:login item)) 
+  40    		                                     (vector :td (:avatar_url item))
+  41    		 ))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:46  column:12  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  42                   ]]]
+  43  
+  44                   ]))
+  45  
+  46  (add-watch table-state :on-change (fn [_ _ _ _] (render!)))
+                 ^--- Use of undeclared Var web-app.components/table-state
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:46  column:50  ----
+
+  Use of undeclared Var web-app.components/render!
+
+  42                   ]]]
+  43  
+  44                   ]))
+  45  
+  46  (add-watch table-state :on-change (fn [_ _ _ _] (render!)))
+                                                       ^--- Use of undeclared Var web-app.components/render!
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/core.cljs   line:9  column:12  ----
+
+  Wrong number of args (1) passed to web-app.components/like-seymore
+
+   5  (defonce app-state (atom { :likes 0 }))
+   6  
+   7  (defn render! []
+   8    (.render js/ReactDOM
+   9             (like-seymore app-state)
+                 ^--- Wrong number of args (1) passed to web-app.components/like-seymore
+  10             (.getElementById js/document "app")))
+  11  
+  12  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  13  
+  14  (render!)
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.675 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:17  column:15  ----
+
+  Use of undeclared Var web-app.components/teste-state
+
+  13  (go (let [response (<! (http/get "https://api.github.com/users"
+  14                                  {:with-credentials? false
+  15                                   :query-params {"since" 135}}))
+  16       body (:body response)]
+  17       (reset! teste-state "1")
+                   ^--- Use of undeclared Var web-app.components/teste-state
+  18       (prn "oi")
+  19       (reset! table-state body);; reset!
+  20       ;;(doseq [item (:body response)] (prn (:login item)))
+  21      	;;(doseq [item (:body response)] ([:tr [:td (:login item)] [:td (:login item)]]) )
+  22       )))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:36  column:26  ----
+
+  Use of undeclared Var web-app.components/teste-state
+
+  32             :onClick #(swap! data update-in [:likes] inc)}
+  33         "Thumbs up"]]
+  34  [:div
+  35   [:h1 "API:"]
+  36   [:h1 (str @teste-state)]
+                  ^--- Use of undeclared Var web-app.components/teste-state
+  37   [:table {:id "tabelaTeste"}
+  38    [:tbody
+  39    		(for [item @table-state] (vector :tr (vector :td (:login item)) 
+  40    		                                     (vector :td (:avatar_url item))
+  41    		 ))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/core.cljs   line:9  column:12  ----
+
+  Wrong number of args (1) passed to web-app.components/like-seymore
+
+   5  (defonce app-state (atom { :likes 0 }))
+   6  
+   7  (defn render! []
+   8    (.render js/ReactDOM
+   9             (like-seymore app-state)
+                 ^--- Wrong number of args (1) passed to web-app.components/like-seymore
+  10             (.getElementById js/document "app")))
+  11  
+  12  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  13  
+  14  (render!)
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.648 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:35  column:26  ----
+
+  Use of undeclared Var web-app.components/teste-state
+
+  31             :onClick #(swap! data update-in [:likes] inc)}
+  32         "Thumbs up"]]
+  33  [:div
+  34   [:h1 "API:"]
+  35   [:h1 (str @teste-state)]
+                  ^--- Use of undeclared Var web-app.components/teste-state
+  36   [:table {:id "tabelaTeste"}
+  37    [:tbody
+  38    		(for [item @table-state] (vector :tr (vector :td (:login item)) 
+  39    		                                     (vector :td (:avatar_url item))
+  40    		 ))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/core.cljs   line:9  column:12  ----
+
+  Wrong number of args (1) passed to web-app.components/like-seymore
+
+   5  (defonce app-state (atom { :likes 0 }))
+   6  
+   7  (defn render! []
+   8    (.render js/ReactDOM
+   9             (like-seymore app-state)
+                 ^--- Wrong number of args (1) passed to web-app.components/like-seymore
+  10             (.getElementById js/document "app")))
+  11  
+  12  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  13  
+  14  (render!)
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.617 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/core.cljs   line:9  column:12  ----
+
+  Wrong number of args (1) passed to web-app.components/like-seymore
+
+   5  (defonce app-state (atom { :likes 0 }))
+   6  
+   7  (defn render! []
+   8    (.render js/ReactDOM
+   9             (like-seymore app-state)
+                 ^--- Wrong number of args (1) passed to web-app.components/like-seymore
+  10             (.getElementById js/document "app")))
+  11  
+  12  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  13  
+  14  (render!)
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.584 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:25  column:28  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  21        )))
+  22  
+  23  
+  24  
+  25  (defn like-seymore [data] [table-state]
+                                 ^--- Use of undeclared Var web-app.components/table-state
+  26  		(.log js/console "Hey Seymore! wts goin' on?")
+  27  		(get-data table-state)
+  28    (sab/html [:div
+  29               [:h1 "Seymore's quantified popularity: " (:likes @data)]
+  30               [:div [:a {:href "#"
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:27  column:13  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  25  (defn like-seymore [data] [table-state]
+  26  		(.log js/console "Hey Seymore! wts goin' on?")
+  27  		(get-data table-state)
+                  ^--- Use of undeclared Var web-app.components/table-state
+  28    (sab/html [:div
+  29               [:h1 "Seymore's quantified popularity: " (:likes @data)]
+  30               [:div [:a {:href "#"
+  31                          :onClick #(swap! data update-in [:likes] inc)}
+  32                      "Thumbs up"]]
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:37  column:30  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  33               [:div
+  34                [:h1 "API:"]
+  35                [:table {:id "tabelaTeste"}
+  36                 [:tbody
+  37                 		(for [item @table-state] (vector :tr (vector :td (:login item)) 
+                                   ^--- Use of undeclared Var web-app.components/table-state
+  38                 		                                     (vector :td (:avatar_url item))
+  39                 		 ))
+  40                   ]]]
+  41  
+  42                   ]))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.697 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.565 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.516 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.515 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.525 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.52 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.515 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.527 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/core.cljs   line:10  column:12  ----
+
+  Wrong number of args (2) passed to web-app.components/like-seymore
+
+   6  (def table-state (atom [{:login "1"}]))
+   7  
+   8  (defn render! []
+   9    (.render js/ReactDOM
+  10             (like-seymore app-state table-state)
+                 ^--- Wrong number of args (2) passed to web-app.components/like-seymore
+  11             (.getElementById js/document "app")))
+  12  
+  13  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  14  
+  15  (add-watch table-state :on-change (fn [_ _ _ _] (render!)))
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.603 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/core.cljs   line:10  column:12  ----
+
+  Wrong number of args (2) passed to web-app.components/like-seymore
+
+   6  (def table-state (atom [{:login "1"}]))
+   7  
+   8  (defn render! []
+   9    (.render js/ReactDOM
+  10             (like-seymore app-state table-state)
+                 ^--- Wrong number of args (2) passed to web-app.components/like-seymore
+  11             (.getElementById js/document "app")))
+  12  
+  13  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  14  
+  15  (add-watch table-state :on-change (fn [_ _ _ _] (render!)))
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.59 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.504 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/core.cljs   line:15  column:12  ----
+
+  Use of undeclared Var web-app.core/table-state
+
+  11             (.getElementById js/document "app")))
+  12  
+  13  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  14  
+  15  (add-watch table-state :on-change (fn [_ _ _ _] (render!)))
+                 ^--- Use of undeclared Var web-app.core/table-state
+  16  
+  17  (render!)
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.615 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.454 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.507 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.528 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.499 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/core.cljs   line:10  column:12  ----
+
+  Wrong number of args (2) passed to web-app.components/like-seymore
+
+   6  (def table-state (atom [{:login "0"}]))
+   7  
+   8  (defn render! []
+   9    (.render js/ReactDOM
+  10             (like-seymore app-state table-state )
+                 ^--- Wrong number of args (2) passed to web-app.components/like-seymore
+  11             (.getElementById js/document "app")))
+  12  
+  13  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  14  
+  15  (add-watch table-state :on-change (fn [_ _ _ _] (render!)))
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.568 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/core.cljs   line:10  column:12  ----
+
+  Wrong number of args (2) passed to web-app.components/like-seymore
+
+   6  (def table-state (atom [{:login "0"}]))
+   7  
+   8  (defn render! []
+   9    (.render js/ReactDOM
+  10             (like-seymore app-state table-state)
+                 ^--- Wrong number of args (2) passed to web-app.components/like-seymore
+  11             (.getElementById js/document "app")))
+  12  
+  13  (add-watch app-state :on-change (fn [_ _ _ _] (render!)))
+  14  
+  15  (add-watch table-state :on-change (fn [_ _ _ _] (render!)))
+
+----  Compiler Warning : Please see src/web_app/core.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.573 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:18  column:15  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  14                             {:with-credentials? false
+  15                              :query-params {"since" 135}}))
+  16  body (:body response)]
+  17  (prn "oi")
+  18  (reset! table-state body);; reset!
+              ^--- Use of undeclared Var web-app.components/table-state
+  19  ;;(doseq [item (:body response)] (prn (:login item)))
+  20  ;;(doseq [item (:body response)] ([:tr [:td (:login item)] [:td (:login item)]]) )
+  21  )))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+----  Compiler Warning on   src/web_app/componets.cljs   line:37  column:30  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  33               [:div
+  34                [:h1 "API:"]
+  35                [:table {:id "tabelaTeste"}
+  36                 [:tbody
+  37                 		(for [item @table-state] (vector :tr (vector :td (:login item)) 
+                                   ^--- Use of undeclared Var web-app.components/table-state
+  38                 		                                     (vector :td (:avatar_url item))
+  39                 		 ))
+  40                   ]]]
+  41  
+  42                   ]))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.608 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.5 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.508 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.005 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.119 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.528 seconds.
+----  Could not Read  src/web_app/componets.cljs   line:43 ----
+
+  D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 43, col 19] Unmatched delimiter ].
+
+  42                 		 ))
+  43                   ]]]
+                       D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 43, col 19] Unmatched delimiter ].
+  44  
+  45                   ]))
+
+----  Reader Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.525 seconds.
+----  Could not Read  src/web_app/componets.cljs   line:43 ----
+
+  D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 43, col 19] Unmatched delimiter ].
+
+  42                 		 ))
+  43                   ]]]
+                       D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 43, col 19] Unmatched delimiter ].
+  44  
+  45                   ]))
+
+----  Reader Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.47 seconds.
+----  Could not Read  src/web_app/componets.cljs   line:43 ----
+
+  D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 43, col 19] Unmatched delimiter ].
+
+  42                 		 ))
+  43                   ]]]
+                       D:\Thiago\Clojure\web_app\src\web_app\componets.cljs [line 43, col 19] Unmatched delimiter ].
+  44  
+  45                   ]))
+
+----  Reader Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.925 seconds.
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
