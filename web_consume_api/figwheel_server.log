@@ -1143,3 +1143,552 @@ notifying browser that file changed:  out\web_app\components.js
 Compiling build :dev to "main.js" from ["src"]...
 Successfully compiled build :dev to "main.js" in 0.863 seconds.
 notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 5.873 seconds.
+----  Could not Read  src/web_app/componets.cljs   line:61 ----
+
+  D:\Thiago\Clojure\clojure-tests\web_consume_api\src\web_app\componets.cljs [line 61, col 1] Unexpected EOF while reading item 4 of list, starting at line 25 and column 1.
+
+----  Reader Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.004 seconds.
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:32  column:10  ----
+
+  Use of undeclared Var web-app.components/email-input
+
+  28      (sab/html
+  29        [:div {:class "signup-wrapper"}
+  30         [:h2 "Welcome to TestChimp"]
+  31         [:form
+  32         	[email-input email-address]
+               ^--- Use of undeclared Var web-app.components/email-input
+  33         ]])))
+  34  
+  35  (defn input-element
+  36    "An input element which updates its value on change"
+  37    [id name type value]
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 1.153 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.846 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.077 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.844 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.895 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.894 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.077 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.818 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.812 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.808 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.762 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.953 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:45  column:48  ----
+
+  Use of undeclared Var web-app.components/email-address-atom
+
+  41  (sab/html
+  42     [:div {:class "signup-wrapper"}
+  43       [:h2 "Welcome "]
+  44       [:form
+  45       	(input-element "email" "email" "email" email-address-atom)
+                                                   ^--- Use of undeclared Var web-app.components/email-address-atom
+  46       	[:div "EMAIL ADDRESS IS " @email-address]
+  47       ]]))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.928 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:36  column:3  ----
+
+  Wrong number of args (4) passed to web-app.components/input-element
+
+  32             }])
+  33  
+  34  (defn email-input
+  35    [email-address-atom]
+  36    (input-element "email" "email" "email" email-address-atom))
+        ^--- Wrong number of args (4) passed to web-app.components/input-element
+  37  
+  38  
+  39  (defn like-seymore [data table]
+  40  		(.log js/console "Hey Seymore! wts goin' on?")
+  41    (sab/html
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.823 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.75 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.826 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.744 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.794 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.768 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.81 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.762 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.74 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.731 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.841 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:31  column:25  ----
+
+  Use of undeclared Var web-app.components/reset
+
+  27             :class "form-control"
+  28             :type type
+  29             :required ""
+  30             :value @value
+  31             :on-change #(reset value (str "(.-target.value %)"))
+                              ^--- Use of undeclared Var web-app.components/reset
+  32             ;;:on-change #(.log js/console (.-target.value %))
+  33             }])
+  34  
+  35  
+  36  (defn like-seymore [data table]
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.994 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.732 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.761 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.837 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.724 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.729 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.739 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.742 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.795 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.849 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.836 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.777 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.788 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 6.118 seconds.
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.221 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.243 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.989 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 4.412 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.072 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.863 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.021 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:36  column:11  ----
+
+  Wrong number of args (2) passed to cljs.core/empty?
+
+  32        )))
+  33  
+  34  (defn check-user [email pass]
+  35  				(cond 
+  36  							(= (empty? (check-user-api email pass) true)) "TRUE"
+                ^--- Wrong number of args (2) passed to cljs.core/empty?
+  37  							:else "FALSE")
+  38  
+  39  )
+  40  
+  41  (defn input-element
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 1.035 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.821 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.83 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.729 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.867 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.754 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.865 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.703 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.8 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.897 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.95 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.764 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:64  column:37  ----
+
+  Use of undeclared Var web-app.components/check-user
+
+  60  	(input-element "email" "email" "email" email-address )
+  61  	(input-element "pass" "pass" "password" password )
+  62  	
+  63  ]
+  64  [:button {:on-click (fn [e] (check-user @email-address @password))} "Login"]]))
+                                   ^--- Use of undeclared Var web-app.components/check-user
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.901 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:64  column:37  ----
+
+  Use of undeclared Var web-app.components/check-user
+
+  60  	(input-element "email" "email" "email" email-address )
+  61  	(input-element "pass" "pass" "password" password )
+  62  	
+  63  ]
+  64  [:button {:on-click (fn [e] (check-user @email-address @password))} "Login"]]))
+                                   ^--- Use of undeclared Var web-app.components/check-user
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.754 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:64  column:37  ----
+
+  Use of undeclared Var web-app.components/check-user
+
+  60  	(input-element "email" "email" "email" email-address )
+  61  	(input-element "pass" "pass" "password" password )
+  62  	
+  63  ]
+  64  [:button {:on-click (fn [e] (check-user @email-address @password))} "Login"]]))
+                                   ^--- Use of undeclared Var web-app.components/check-user
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.881 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.737 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.729 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.722 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.79 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.572 seconds.
+----  Could not Read  src/web_app/componets.cljs   line:101 ----
+
+  D:\Thiago\Clojure\clojure-tests\web_consume_api\src\web_app\componets.cljs [line 101, col 1] Unexpected EOF while reading item 6 of list, starting at line 24 and column 1.
+
+----  Reader Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.74 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.095 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.813 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.927 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.727 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.706 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.839 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.747 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.493 seconds.
+----  Could not Analyze  src/web_app/componets.cljs  ----
+
+  No such namespace: clojure.data.json, could not locate clojure/data/json.cljs, clojure/data/json.cljc, or JavaScript source providing "clojure.data.json" 
+
+----  Analysis Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.555 seconds.
+----  Could not Analyze  src/web_app/componets.cljs  ----
+
+  No such namespace: clojure.data.json, could not locate clojure/data/json.cljs, clojure/data/json.cljc, or JavaScript source providing "clojure.data.json" 
+
+----  Analysis Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Failed to compile build :dev from ["src"] in 0.737 seconds.
+----  Could not Analyze  src/web_app/componets.cljs  ----
+
+  No such namespace: clojure.data.json, could not locate clojure/data/json.cljs, clojure/data/json.cljc, or JavaScript source providing "clojure.data.json" 
+
+----  Analysis Error : Please see src/web_app/componets.cljs  ----
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 8.966 seconds.
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.019 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.938 seconds.
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.072 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.827 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.901 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.745 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 1.024 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.769 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+----  Compiler Warning on   src/web_app/componets.cljs   line:29  column:15  ----
+
+  Use of undeclared Var web-app.components/table-state
+
+  25  (go (let [response (<! (http/get (str "http://localhost:3000/checkuser/" email "." pass)
+  26                                  {:with-credentials? false
+  27                                   }))
+  28  					body (:body response)]
+  29  					(reset! table-state body);; reset!
+                   ^--- Use of undeclared Var web-app.components/table-state
+  30       ;;(cond 
+  31  					;;	(= (empty? body) true) (.log js/console "logado")
+  32  					;;	:else (.log js/console "nao logado erro"))
+  33       )))
+
+----  Compiler Warning : Please see src/web_app/componets.cljs  ----
+Successfully compiled build :dev to "main.js" in 0.951 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.842 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.897 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.816 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.838 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.896 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.823 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.757 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.774 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.719 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.832 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.76 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.848 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.694 seconds.
+notifying browser that file changed:  out\web_app\core.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.818 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.731 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.788 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.724 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.835 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.772 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.851 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.776 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.733 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.748 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.745 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.718 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.742 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.742 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.707 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.926 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.775 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.679 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.773 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.739 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.737 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.74 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.819 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.817 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.702 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.761 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.699 seconds.
+notifying browser that file changed:  out\web_app\components.js
+Compiling build :dev to "main.js" from ["src"]...
+Successfully compiled build :dev to "main.js" in 0.802 seconds.
+notifying browser that file changed:  out\web_app\components.js

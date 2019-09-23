@@ -4,7 +4,8 @@
             [compojure.api.sweet :refer [api routes]]
             [test_api.db :refer [db]]
             [test_api.sql :as sql]
-            [clojure.pprint :as pprint])
+            [clojure.pprint :as pprint]
+            [ring.middleware.cors :refer [wrap-cors]])
   (:gen-class))
 
 ;;links:https://www.compose.com/articles/embrace-sql-with-hugsql-clojure-and-postgresql/
@@ -16,7 +17,9 @@
    :options {:ui {:validatorUrl nil}
              :data {:info {:version "1.0.0", :title "Restful CRUD API"}}}})
 
-(def app (api {:swagger swagger-config} (apply routes user-routes)))
+(def app (api {:swagger swagger-config} 
+				 (wrap-cors (apply routes user-routes)  :access-control-allow-origin [#".*"] 
+				 										:access-control-allow-methods [:get :put :post :delete])))
 
 (defn -main
   [& args]

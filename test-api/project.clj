@@ -18,6 +18,7 @@
 
                  [com.layerware/hugsql "0.4.5"]
                  [org.clojure/data.json "0.2.6"]
+                 [ring-cors "0.1.13"]
   ]
   :main ^:skip-aot test_api.core
   :target-path "target/%s"
