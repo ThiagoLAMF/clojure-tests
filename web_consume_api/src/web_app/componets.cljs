@@ -10,7 +10,7 @@
 																								:username "abc"
 																								:email "asd@asd.com"
 																								:password_hash "pass"}))
-(def email-address (atom "teste"))
+(def email-address (atom "userteste"))
 (def password (atom "password"))
 
 ;;(defn get-data [table-state]
@@ -24,28 +24,16 @@
      	;;(doseq [item (:body response)] ([:tr [:td (:login item)] [:td (:login item)]]) )
 ;;      )))
 
+;;mandar estado pelo mqtt, numero 1 2 3
+;; h2
+
 (defn check-user-api [email pass user-state]
 	
 	(go (let [response (<! (http/get (str "http://localhost:3000/checkuser/" email "." pass)
                                  {:with-credentials? false
                                   }))]
-      (prn (:body response))
-      (prn (map :id (:body response)))
-	;;(go (let [response (<! (http/get (str "http://localhost:3000/checkuser/" email "." pass)
- ;;                                {:with-credentials? false
- ;;                                 }))
-	;;					body (:body response)]
-						;;(prn  (:id (.stringify js/JSON (clj->js body))))
-						;;(prn (js->clj body :keywordize-keys true))
-	;;					(prn "antes")
-	;;					(prn  (.parse js/JSON (.stringify js/JSON body)))
-						;;(prn (js->clj (-> body js/JSON.stringify js/JSON.parse)))
-						;;(reset! user-state (js->clj body :keywordize-keys true));; reset!
-	;;					(prn "depois")
-;;						(prn user-state)
-      ;;(cond 
-						;;	(= (empty? body) true) (.log js/console "logado")
-						;;	:else (.log js/console "nao logado erro"))
+      (prn  (map :username (js->clj (.parse js/JSON (:body response)) :keywordize-keys true)))
+
       )))
 
 (defn input-element
@@ -62,6 +50,7 @@
 
 (defn like-seymore [data user-state]
 		(.log js/console "Hey Seymore! wts goin' on?")
+    (prn (.prompt js/window "oi"))
   (sab/html
      [:div {:class "signup-wrapper"}
      		[:h1 "Seymore's quantified popularity: " (:likes @data)]
@@ -69,7 +58,7 @@
                         :onClick #(swap! data update-in [:likes] inc)}
                     "Thumbs up"]]
        [:h2 "Welcome "]
-       [:h2  "LOGADO: " (:username @user-state)]
+       [:h2  "LOGADO2: " (:username @user-state)]
        [:form
        	(input-element "email" "email" "email" email-address )
        	(input-element "pass" "pass" "password" password )
